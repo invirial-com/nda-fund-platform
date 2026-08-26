@@ -1,0 +1,93 @@
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.claude/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+.pnpm-debug.log*
+
+# Environment variables (should never be committed)
+.env
+.env.local
+.env.*.local
+.nul
+
+/test-frontend
+
+test-frontend
+
+# Temporary files
+*.tmp
+*.temp
+*.claude
+*Claude.md
+*DEPLOYMENT_GUIDE.md
+MIGRATION_PLAN.md
+REBUILD_SUMMARY.md
+TESTING_QUICKSTART.md
+*.mcp.json
+.cache/
+
+
+CAMPAIGN_SYSTEM_IMPLEMENTATION.md
+CAMPAIGN_SYSTEM_README.md
+
+
+# Internal docs (plans, specs)
+packages/frontend/docs/
+
+# dependencies
+node_modules/
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+*.pem
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# vercel
+.vercel
+
+# Build artifacts
+.next/
+coverage/tmpclaude-*
+
+# Video production files
+video-production/*.mp4
+video-production/*.webm
+video-production/video-scenes/
+video-production/title-cards/
+video-production/audio/
